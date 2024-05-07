@@ -6,6 +6,7 @@
 //  Copyright © 2020 BorisEmorine. All rights reserved.
 //
 
+#if canImport(CoreImage)
 import UIKit
 import CoreImage
 
@@ -67,3 +68,4 @@ extension UIImage {
     }
     
 }
+#endif
