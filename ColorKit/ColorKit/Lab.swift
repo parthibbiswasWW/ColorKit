@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if os(iOS)
 struct Lab {
     let L: CGFloat
     let a: CGFloat
@@ -70,3 +71,4 @@ extension UIColor {
     }
     
 }
+#endif

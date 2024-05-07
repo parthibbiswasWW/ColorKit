@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if os(iOS)
 extension UIImage {
     
     var resolution: CGSize {
@@ -31,3 +32,4 @@ extension UIImage {
     }
     
 }
+#endif

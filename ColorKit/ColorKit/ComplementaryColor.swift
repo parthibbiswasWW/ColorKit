@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+#if os(iOS)
 extension UIColor {
     
     /// Computes the complementary color of the current color instance.
@@ -20,3 +21,4 @@ extension UIColor {
     }
     
 }
+#endif

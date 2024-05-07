@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if os(iOS)
 extension UIColor {
     
     /// Computes the relative luminance of the color.
@@ -32,3 +33,4 @@ extension UIColor {
     }
     
 }
+#endif

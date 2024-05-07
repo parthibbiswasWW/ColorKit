@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if os(iOS)
 extension UIColor {
     
     /// The cyan (C) channel of the CMYK color space.
@@ -31,3 +32,4 @@ extension UIColor {
     }
     
 }
+#endif

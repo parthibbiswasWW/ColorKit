@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if os(iOS)
 extension UIColor {
     
     /// Convenience initializer with hexadecimal values.
@@ -41,3 +42,4 @@ extension UIColor {
     }
     
 }
+#endif

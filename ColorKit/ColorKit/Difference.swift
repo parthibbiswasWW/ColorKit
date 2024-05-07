@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if os(iOS)
 extension UIColor {
     
     public enum ColorDifferenceResult: Comparable {
@@ -138,3 +139,4 @@ extension UIColor {
     }
     
 }
+#endif
