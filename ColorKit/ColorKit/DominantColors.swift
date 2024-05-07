@@ -6,9 +6,10 @@
 //  Copyright © 2020 BorisEmorine. All rights reserved.
 //
 
-#if canImport(CoreImage)
 import UIKit
+#if canImport(CoreImage)
 import CoreImage
+#endif
 
 /// A simple structure containing a color, and a frequency.
 public class ColorFrequency: CustomStringConvertible {
@@ -30,6 +31,7 @@ public class ColorFrequency: CustomStringConvertible {
     }
 }
 
+#if canImport(CoreImage)
 extension UIImage {
     
     public enum DominantColorAlgorithm {
