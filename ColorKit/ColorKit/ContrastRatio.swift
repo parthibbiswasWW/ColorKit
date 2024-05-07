@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if os(iOS)
 extension UIColor {
     
     /// An enumeration which groups contrast ratios based on their readability.
@@ -57,3 +58,4 @@ extension UIColor {
     }
     
 }
+#endif

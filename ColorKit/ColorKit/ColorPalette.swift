@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if os(iOS)
 /// A simple structure used to represent color palettes.
 public struct ColorPalette {
     
@@ -153,3 +154,4 @@ public struct ColorPalette {
     }
     
 }
+#endif

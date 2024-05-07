@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if os(iOS)
 extension UIColor {
     
     /// This function gives a readable name to the current `UIColor` instance.
@@ -73,3 +74,4 @@ struct NamedColorList {
     ]
     
 }
+#endif
